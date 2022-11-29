@@ -5,10 +5,10 @@ function App() {
     <>
       {/* navbar component  */}
       <Navbar Brand='TechnoBytes' about='About' />
-      
+
 
     </>
-  );
+  );  
 }
 
 export default App;

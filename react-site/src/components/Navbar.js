@@ -28,9 +28,10 @@ export default function navbar(props) {
     )
 }
 
+ 
 
 navbar.propTypes = {
-    Brand: PropTypes.string.isRequired,
+    Brand: PropTypes.string.isRequired, 
     about: PropTypes.string.isRequired
 }
 
