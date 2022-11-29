@@ -7,7 +7,7 @@ function App() {
       {/* navbar component  */}
       <Navbar Brand='KandelArjun' about='About' />
       <div className="container">
-        <ConvertToUpper heading="" />
+        <ConvertToUpper heading="Enter the Text to analyze the below" textSummary="Text Summary" />
       </div>
     </>
   );
