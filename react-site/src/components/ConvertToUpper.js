@@ -29,7 +29,7 @@ export default function ConvertToUpper(props) {
             return joinArray;
         }
         const result = reverseString();
-        setText(result)
+        setText(result)    
     }
     return (
         <div>
@@ -45,11 +45,11 @@ export default function ConvertToUpper(props) {
             <h4 className='my-3 text-info'>{props.textSummary}</h4>
             <h5 className='text-secondary'><b>{text.split(" ").length}</b> words and <b>{text.length}</b> characters</h5>
             <h5 className='text-secondary'>{0.008 * text.split(" ").length} Minutes Read.</h5>
-            {/* preview */}
             <h2 className='text-info my-3'>Preview</h2>
             <h4>{text}</h4>
+            {/*  */}
         </div>
-    )
-}
+    ) 
+} 
 
 
